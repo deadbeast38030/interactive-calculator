@@ -63,7 +63,7 @@ root.title("Interactive Calculator")
 root.geometry("350x500")
 root.configure(bg="black")
 
-# ------------------- ENTRY 1 -------------------
+# ------------------- ENTRY 1 -----------------------
 
 label1 = tk.Label(root, text="Enter first number:", bg="black", fg="white")
 label1.pack(pady=5)
@@ -72,7 +72,7 @@ entry1 = tk.Entry(root, width=20)
 entry1.pack(pady=5)
 entry1.bind("<FocusIn>", lambda event: set_active_entry(entry1))
 
-# ------------------- ENTRY 2 -------------------
+# ------------------- ENTRY 2 ---------------------------
 
 label2 = tk.Label(root, text="Enter second number:", bg="black", fg="white")
 label2.pack(pady=5)
@@ -137,5 +137,6 @@ clear_button = tk.Button(
     command=clear
 )
 clear_button.grid(row=3, column=0, padx=5, pady=5)
+
 
 root.mainloop()
