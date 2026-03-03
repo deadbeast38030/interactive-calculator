@@ -15,7 +15,7 @@ A simple interactive calculator built using Python and Tkinter.
 - Python
 - Tkinter (GUI)
 
-## 📦 How to Run
+## 📦 How to Run the program
 
 1. Clone the repository
 2. Open the folder in VS Code
@@ -23,3 +23,4 @@ A simple interactive calculator built using Python and Tkinter.
 
 ```bash
 python calculator.py
+
