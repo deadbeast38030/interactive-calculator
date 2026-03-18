@@ -22,5 +22,5 @@ A simple interactive calculator built using Python and Tkinter.
 3. Run:
 
 ```bash
-python calculator.py
+python calculator.py 
 
