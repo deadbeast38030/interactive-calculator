@@ -9,7 +9,7 @@ A simple interactive calculator built using Python and Tkinter.
 - Division
 - Division by zero error handling
 - Clear button
-- GUI number buttons (0–9)
+- GUI number buttons(0–9)
 
 ## 🛠 Technologies Used
 - Python
